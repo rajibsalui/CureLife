@@ -304,46 +304,14 @@ html,body{
     color: #363a43;
     border-bottom: 1.5px solid #74757774;
 }
-img{
+#baner1 img{
+    
     width: 100%;
     border-radius: 3px;
     
 }
-.slideshow-container {
-  position: relative;
-  width: 100%;
-  display: flex;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  box-shadow: 1px 2px 20px#363a4342;
-}
-.mySlides {
-    justify-content: center;
-    align-items: center;
-    margin-left: 60px;
-}
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 20%;
-  width: auto;
-  margin-top: -25px;
-  padding-left: 0;
-  padding: 40px;
-  color: rgb(0, 0, 0);
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-.fade {
-  animation-name: fade;
-  animation-duration: 2s;
+#baner1{
+    padding-bottom: 20px;
 }
 
 #brand_image{
@@ -359,10 +327,11 @@ img{
 
 h4{
     padding: 30px;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     background-color: #f1f1f1;
     opacity: .8;
-    color: #363a43;
+    color: #292b31;
+    font-weight: 500;
 }
 
 #contain_2{
@@ -408,5 +377,173 @@ h4{
     display: flex;
     justify-content: space-evenly;
 }
+.owl-carousel{
 
+    box-shadow: 1px 1px 20px#363a4342;
+}
+.owl-carousel .item{
+    height: 15vw;
+}
+.owl-carousel img{
+    padding-top: 10px;
+}
+.owl-carousel .item:hover{
+    border-radius: 8px;
+    border: 2px solid rgba(116, 116, 116, 0.585);
+}
+.sc11 .owl-carousel{
 
+    box-shadow: 1px 1px 20px#363a4342;
+}
+
+.sc2 a{
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    text-align: left;
+    text-decoration: none;
+
+}
+.sc2 .ri-shield-cross-line{
+    background-color: #ffe3c2;
+}
+.sc2 h4{
+    font-size: 1vw;
+    margin-top: 0;
+    padding-top: 9px;
+    font-weight: bolder;
+    padding-left: 9px;
+    background-color: transparent;
+}
+.sc2 span{
+    font-size: 1vw;
+    color: #000000;
+    font-weight: bolder;
+    padding-left: 1px;
+    display: flex;
+    background-color: #ffe3c2;
+    width: 120PX;
+    height: 25px;
+    border-radius: 3px;
+    z-index: 999;
+}
+.sc2 .item{
+    height: 150px;
+    padding-top: 8px;
+    border: 1px solid #363a433e;
+    border-radius: 4px;
+
+}
+.sc2 .item del{
+    font-size: .9vw;
+    opacity: .6;
+}
+.sc2 .item b{
+    color: rgb(10, 206, 10);
+    font-size: .9vw;
+    border: 2px dotted rgb(6, 198, 6);
+    margin: 15px;
+    background-color: #74f35124;
+}
+
+.sc3 .item{
+    height: 540px;
+    padding: 0 4px;
+    line-height: 1;
+    overflow: hidden;
+
+}
+.sc3 img{
+    
+    width: 1vw;
+    overflow-wrap: normal;
+}
+.sc3 a{
+    text-decoration: none;
+    display: flex;
+    position: relative;
+}
+.sc3 a span{
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 1vw;
+    border-radius: 3px;
+    background-color: rgba(51, 243, 3, 0.912);
+    margin: 9px;
+    padding-top: 5px;
+    padding-left: 5px;
+    height: 20px;
+    width: 50px;
+    position: absolute;
+}
+.sc3 .item span{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.1vw;
+    font-weight: bolder;
+    font-style: italic;
+}
+.sc3 .item #demo {
+    font-size: 1vw;
+    color:  rgba(45, 202, 6, 0.912);
+}
+.sc3 .item #demo1 {
+    font-size: 1vw;
+    color:  rgba(45, 202, 6, 0.912);
+}
+.sc3 .item #demo2 {
+    font-size: 1vw;
+    color:  rgba(45, 202, 6, 0.912);
+}
+.sc3 .item #demo3 {
+    font-size: 1vw;
+    color:  rgba(45, 202, 6, 0.912);
+}
+.sc3 .item #demo4 {
+    font-size: 1vw;
+    color:  rgba(45, 202, 6, 0.912);
+}
+.sc3 .item #demo5 {
+    font-size: 1vw;
+    color:  rgba(45, 202, 6, 0.912);
+}
+.sc3 .item #demo6 {
+    font-size: 1vw;
+    color:  rgba(45, 202, 6, 0.912);
+}
+.sc3 .item #demo7 {
+    font-size: 1vw;
+    color:  rgba(45, 202, 6, 0.912);
+}
+.sc3 .item #demo8 {
+    font-size: 1vw;
+    color:  rgba(45, 202, 6, 0.912);
+}
+.sc3 .item #demo9 {
+    font-size: 1vw;
+    color:  rgba(45, 202, 6, 0.912);
+}
+.sc3 .item #demo10 {
+    font-size: 1vw;
+    color:  rgba(45, 202, 6, 0.912);
+}
+.sc3 .item #demo11 {
+    font-size: 1vw;
+    color:  rgba(45, 202, 6, 0.912);
+}
+.sc3 .item .up{
+    font-size: 1.1vw;
+    color: black;
+    margin-bottom: 10px;
+}
+.sc3 .item .down{
+    font-size: .9vw;
+    color: #363a43;
+    opacity: .7;
+    margin-bottom: 10px;
+}
+.sc3 .item #str{
+    opacity: 1;
+    color: black;
+}

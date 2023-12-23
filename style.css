@@ -232,7 +232,6 @@ html,body{
     align-items: stretch;
     justify-content: space-between;
 }
-
 /* .b11 .d-block{
     width: 20vw;
 }
@@ -253,7 +252,6 @@ html,body{
 /* .container img{
     height: 5rem;
 } */ 
-
 
 
 .slider{
@@ -328,56 +326,14 @@ html,body{
     color: #363a43;
     border-bottom: 1.5px solid #74757774;
 }
-
-img{
-
 #baner1 img{
     
-
     width: 100%;
     border-radius: 3px;
     
 }
-
-.slideshow-container {
-  position: relative;
-  width: 100%;
-  display: flex;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  box-shadow: 1px 2px 20px#363a4342;
-}
-.mySlides {
-    justify-content: center;
-    align-items: center;
-    margin-left: 60px;
-}
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 20%;
-  width: auto;
-  margin-top: -25px;
-  padding-left: 0;
-  padding: 40px;
-  color: rgb(0, 0, 0);
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-.fade {
-  animation-name: fade;
-  animation-duration: 2s;
-
 #baner1{
     padding-bottom: 20px;
-
 }
 
 #brand_image{
@@ -393,18 +349,11 @@ img{
 
 h4{
     padding: 30px;
-
-    font-size: 1.2vw;
-    background-color: #f1f1f1;
-    opacity: .8;
-    color: #363a43;
-
     font-size: 1.3vw;
     background-color: #f1f1f1;
     opacity: .8;
     color: #292b31;
     font-weight: 500;
-
 }
 
 #contain_2{
@@ -450,7 +399,6 @@ h4{
     display: flex;
     justify-content: space-evenly;
 }
-
 .owl-carousel{
 
     box-shadow: 1px 1px 20px#363a4342;
@@ -620,4 +568,3 @@ h4{
     opacity: 1;
     color: black;
 }
-

@@ -1,5 +1,13 @@
+
 h2 {
   text-align: center;
+
+
+h2{
+  margin-top: 10px;
+  padding-top: 20px;
+    text-align: center;
+
 }
 
 .rain {
@@ -64,6 +72,72 @@ input {
 
 .facebook {
   font-size: 0.7cm;
+    display: flex;
+  }
+  
+  .rainer {
+    text-align: center;
+    padding: 2%;
+    margin-left: 18%;
+  }
+  
+  .number {
+    font-size: 1.5em; 
+    font-weight: bold;
+  }
+  
+  .name {
+    font-size: medium;
+
+  }
+  .rich{
+    display: flex;
+  }
+.richer{
+    padding: 4%;
+ 
+}
+.foot1{
+    padding: 2%;
+    margin-left: 30%;
+    font-size: larger;
+}
+
+.foot1 button{
+
+    font-size:90% ;
+    background-color: rgba(246, 26, 55, 0.992);
+    border: solid whitesmoke;
+    border-radius: 0.2cm;
+    color: antiquewhite;
+
+    
+}
+
+.richer button{
+
+    font-size:90% ;
+    background-color: rgba(246, 26, 55, 0.992);
+    border: solid whitesmoke;
+    border-radius: 0.2cm;
+    color: antiquewhite;
+
+    
+}
+input{
+    font-size: 85%;
+    margin-left: 2%;
+    background-color:#e5eaf0;
+    border-radius: 0.2cm;
+    border: solid white;
+}
+.insta{
+   font-size: 0.7cm;
+   color: rgb(255, 53, 90);
+}
+
+.facebook{
+  font-size:0.7cm ;
   color: #1877F2;
 }
 
@@ -75,13 +149,14 @@ input {
 .youtube {
   font-size: 0.7cm;
   color: #CD201F
+
 }
 
 .linked {
   font-size: 0.7cm;
-  color: #0A66C2;
 
 }
+
 
 .play {
   font-size: 0.7cm;
@@ -92,8 +167,19 @@ input {
 
 .apple {
   font-size: 0.7cm;
+
+.play{
+  text-decoration: none;
+  font-size: 1.5vw;
   color: black;
-  background-color: rgb(241, 219, 193);
+  /* background-color: black; */
+  border-radius: 0.2cm;
+}
+.apple{
+  text-decoration: none;
+  font-size: 1.5vw;
+
+  color: black;
   border-radius: 0.2cm;
 
 }

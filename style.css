@@ -232,7 +232,6 @@ html,body{
     align-items: stretch;
     justify-content: space-between;
 }
-
 /* .b11 .d-block{
     width: 20vw;
 }
@@ -253,7 +252,6 @@ html,body{
 /* .container img{
     height: 5rem;
 } */ 
-
 
 
 .slider{
@@ -335,7 +333,6 @@ img{
 
 #baner1 img{
     
-
     width: 100%;
     border-radius: 3px;
     
@@ -380,7 +377,6 @@ img{
 
 #baner1{
     padding-bottom: 20px;
-
 }
 
 #brand_image{
@@ -396,18 +392,11 @@ img{
 
 h4{
     padding: 30px;
-
-    font-size: 1.2vw;
-    background-color: #f1f1f1;
-    opacity: .8;
-    color: #363a43;
-
     font-size: 1.3vw;
     background-color: #f1f1f1;
     opacity: .8;
     color: #292b31;
     font-weight: 500;
-
 }
 
 #contain_2{
@@ -453,7 +442,6 @@ h4{
     display: flex;
     justify-content: space-evenly;
 }
-
 .owl-carousel{
 
     box-shadow: 1px 1px 20px#363a4342;
@@ -623,4 +611,3 @@ h4{
     opacity: 1;
     color: black;
 }
-

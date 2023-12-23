@@ -290,16 +290,16 @@ html,body{
     background-color:transparent;
 }
 .man-but{
-    border: 1px solid rgb(137, 137, 137);
+    border: 1px solid rgba(137, 137, 137, 0.458);
     background-color: transparent;
-    padding: 5px;
+    padding: 3px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
 }
 
 .man-but:not(:last-child){
-    margin-right: 40px;
+    margin-right: 2px;
 }
 
 #radio1:checked ~ .first{
@@ -327,9 +327,7 @@ html,body{
     border-bottom: 1.5px solid #74757774;
 }
 
-img{
-    
-}
+
 
 #baner1 img{
     
@@ -375,8 +373,14 @@ img{
   animation-duration: 2s;
 }
 
+#baner1 img{
+    width: 90vw;
+}
 #baner1{
     padding-bottom: 20px;
+    justify-content: center;
+    padding-left: 60px;
+    background-color: #f4f4f4;
 }
 
 #brand_image{
@@ -480,7 +484,7 @@ h4{
     padding-left: 9px;
     background-color: transparent;
 }
-.sc2 span{
+.sc2 .item span{
     font-size: 1vw;
     color: #000000;
     font-weight: bolder;
@@ -491,6 +495,9 @@ h4{
     height: 25px;
     border-radius: 3px;
     z-index: 999;
+}
+.sc2{
+    padding-top: 5px;
 }
 .sc2 .item{
     height: 150px;
@@ -611,3 +618,169 @@ h4{
     opacity: 1;
     color: black;
 }
+
+
+
+.sc4 .item{
+    height: 24vw;
+    padding: 0 4px;
+    line-height: 1;
+    position: relative;
+
+}
+.sc4 img{
+    
+    height: 14vw;
+    object-fit: scale-down;
+}
+.sc4 a{
+    text-decoration: none;
+    display: flex;
+    position: relative;
+}
+.sc4 a span{
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 1vw;
+    border-radius: 3px;
+    background-color: rgba(51, 243, 3, 0.912);
+    margin: 9px;
+    padding-top: 3px;
+    height: 20px;
+    width: 50px;
+    position: absolute;
+}
+.sc4 .item span{
+    display: none;
+    justify-content: space-evenly;
+    font-size: 1.1vw;
+    font-weight: bolder;
+    font-style: italic;
+}
+.sc4 .item #demo {
+    font-size: 1vw;
+    color:  rgba(45, 202, 6, 0.912);
+}
+.sc4 .item #demo1 {
+    font-size: 1vw;
+    color:  rgba(45, 202, 6, 0.912);
+}
+.sc4 .item #demo2 {
+    font-size: 1vw;
+    color:  rgba(45, 202, 6, 0.912);
+}
+.sc4 .item #demo3 {
+    font-size: 1vw;
+    color:  rgba(45, 202, 6, 0.912);
+}
+.sc4 .item #demo4 {
+    font-size: 1vw;
+    color:  rgba(45, 202, 6, 0.912);
+}
+.sc4 .item #demo5 {
+    font-size: 1vw;
+    color:  rgba(45, 202, 6, 0.912);
+}
+.sc4 .item #demo6 {
+    font-size: 1vw;
+    color:  rgba(45, 202, 6, 0.912);
+}
+.sc4 .item #demo7 {
+    font-size: 1vw;
+    color:  rgba(45, 202, 6, 0.912);
+}
+.sc4 .item #demo8 {
+    font-size: 1vw;
+    color:  rgba(45, 202, 6, 0.912);
+}
+.sc4 .item #demo9 {
+    font-size: 1vw;
+    color:  rgba(45, 202, 6, 0.912);
+}
+.sc4 .item #demo10 {
+    font-size: 1vw;
+    color:  rgba(45, 202, 6, 0.912);
+}
+.sc4 .item #demo11 {
+    font-size: 1vw;
+    color:  rgba(45, 202, 6, 0.912);
+}
+.sc4 .item .up{
+    font-size: 1.1vw;
+    color: black;
+    margin-bottom: 10px;
+}
+.sc4 .item .down{
+    font-size: .9vw;
+    color: #363a43;
+    opacity: .7;
+    margin-bottom: 10px;
+}
+.sc4 .item #str{
+    opacity: 1;
+    color: black;
+}
+
+#sc23 img{
+    width: 9vw;
+}
+
+#sc23 .item{
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.patho .item{
+    padding-left: 9px;
+    font-weight: bolder;
+}
+.patho .pathoo{
+    color: #000000;
+    opacity: 1;
+    font-size: 1.3vw;
+}
+.patho p{
+    opacity: .7;
+    font-size: .9vw;
+}
+
+#contain_6{
+    box-shadow: .6px 1px 20px#363a4342;
+}
+#contain_6 img{
+    width: 14vw;
+    box-shadow: .6px 1px 20px#363a4342;
+}
+#contain_4{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contain_5{
+    display: flex;
+    padding-bottom: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ft1{
+    margin-top: 30px;
+    border-bottom:2px solid #abaaaa18 ;
+
+}
+.ft1 h1 {
+            color: #333;
+            text-align: center;
+        }
+       .ft1 h2 {
+            color: #555;
+        }
+      .ft1  p {
+            color: #666;
+            margin-bottom: 15px;
+        }
+       .ft1 strong {
+            color: #f00;
+        }

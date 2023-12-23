@@ -51,7 +51,6 @@ function showSlides(n) {
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";
 }
 
  
@@ -101,58 +100,44 @@ function showSlides(n) {
 // });
 
 
-var owl = $('.owl-carousel');
-owl.owlCarousel({
-  loop: true,
-  margin: 10,
-  nav: false,
-  margin:10,
-  dots: false,
-  autoplay: true,
-  autoplayTimeout: 6400,
-  responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },            
-        960:{
-            items:5
-        },
-        1200:{
-            items:6
-        }
-    }
-});
+// var owl = $('.owl-carousel');
+// owl.owlCarousel({
+//   loop: true,
+//   margin: 10,
+//   nav: false,
+//   margin:10,
+//   dots: false,
+//   autoplay: true,
+//   autoplayTimeout: 6400,
+//   responsive:{
+//         0:{
+//             items:1
+//         },
+//         600:{
+//             items:3
+//         },            
+//         960:{
+//             items:5
+//         },
+//         1200:{
+//             items:6
+//         }
+//     }
+// });
 
-owl.on('mousewheel', '.owl-stage', function (e) {
-    if (e.deltaY>0) {
-        owl.trigger('next.owl');
-    } else {
-        owl.trigger('prev.owl');
-    }
-    e.preventDefault();
-});
-
-
+// owl.on('mousewheel', '.owl-stage', function (e) {
+//     if (e.deltaY>0) {
+//         owl.trigger('next.owl');
+//     } else {
+//         owl.trigger('prev.owl');
+//     }
+//     e.preventDefault();
+// });
 
 
-var countDownDate = new Date("Jan 15, 2024 15:37:25").getTime();
-var x = setInterval(function() {
-  var now = new Date().getTime();
-  var distance = countDownDate - now;
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
+
+
+
 
 
 // var countDownDate = new Date("Jan 15, 2024 15:37:25").getTime();
@@ -171,21 +156,21 @@ var x = setInterval(function() {
 //   }
 // }, 1000);
 
-var countDownDate = new Date("Jan 15, 2024 15:37:25").getTime();
-var x = setInterval(function() {
-  var now = new Date().getTime();
-  var distance = countDownDate - now;
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  document.getElementById("demo2").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo2").innerHTML = "EXPIRED";
-  }
-}, 1000);
+// var countDownDate = new Date("Jan 15, 2024 15:37:25").getTime();
+// var x = setInterval(function() {
+//   var now = new Date().getTime();
+//   var distance = countDownDate - now;
+//   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+//   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+//   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+//   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+//   document.getElementById("demo2").innerHTML = days + "d " + hours + "h "
+//   + minutes + "m " + seconds + "s ";
+//   if (distance < 0) {
+//     clearInterval(x);
+//     document.getElementById("demo2").innerHTML = "EXPIRED";
+//   }
+// }, 1000);
 
 // var countDownDate = new Date("Jan 15, 2024 15:37:25").getTime();
 // var x = setInterval(function() {
@@ -203,21 +188,21 @@ var x = setInterval(function() {
 //   }
 // }, 1000);
 
-var countDownDate = new Date("Jan 15, 2024 15:37:25").getTime();
-var x = setInterval(function() {
-  var now = new Date().getTime();
-  var distance = countDownDate - now;
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  document.getElementById("demo4").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo4").innerHTML = "EXPIRED";
-  }
-}, 1000);
+// var countDownDate = new Date("Jan 15, 2024 15:37:25").getTime();
+// var x = setInterval(function() {
+//   var now = new Date().getTime();
+//   var distance = countDownDate - now;
+//   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+//   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+//   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+//   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+//   document.getElementById("demo4").innerHTML = days + "d " + hours + "h "
+//   + minutes + "m " + seconds + "s ";
+//   if (distance < 0) {
+//     clearInterval(x);
+//     document.getElementById("demo4").innerHTML = "EXPIRED";
+//   }
+// }, 1000);
 
 // var countDownDate = new Date("Jan 15, 2024 15:37:25").getTime();
 // var x = setInterval(function() {
@@ -235,21 +220,21 @@ var x = setInterval(function() {
 //   }
 // }, 1000);
 
-var countDownDate = new Date("Jan 15, 2024 15:37:25").getTime();
-var x = setInterval(function() {
-  var now = new Date().getTime();
-  var distance = countDownDate - now;
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  document.getElementById("demo6").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo6").innerHTML = "EXPIRED";
-  }
-}, 1000);
+// var countDownDate = new Date("Jan 15, 2024 15:37:25").getTime();
+// var x = setInterval(function() {
+//   var now = new Date().getTime();
+//   var distance = countDownDate - now;
+//   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+//   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+//   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+//   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+//   document.getElementById("demo6").innerHTML = days + "d " + hours + "h "
+//   + minutes + "m " + seconds + "s ";
+//   if (distance < 0) {
+//     clearInterval(x);
+//     document.getElementById("demo6").innerHTML = "EXPIRED";
+//   }
+// }, 1000);
 
 // var countDownDate = new Date("Jan 15, 2024 15:37:25").getTime();
 // var x = setInterval(function() {
@@ -283,37 +268,37 @@ var x = setInterval(function() {
 //   }
 // }, 1000);
 
-var countDownDate = new Date("Jan 15, 2024 15:37:25").getTime();
-var x = setInterval(function() {
-  var now = new Date().getTime();
-  var distance = countDownDate - now;
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  document.getElementById("demo9").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo9").innerHTML = "EXPIRED";
-  }
-}, 1000);
+// var countDownDate = new Date("Jan 15, 2024 15:37:25").getTime();
+// var x = setInterval(function() {
+//   var now = new Date().getTime();
+//   var distance = countDownDate - now;
+//   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+//   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+//   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+//   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+//   document.getElementById("demo9").innerHTML = days + "d " + hours + "h "
+//   + minutes + "m " + seconds + "s ";
+//   if (distance < 0) {
+//     clearInterval(x);
+//     document.getElementById("demo9").innerHTML = "EXPIRED";
+//   }
+// }, 1000);
 
-var countDownDate = new Date("Jan 15, 2024 15:37:25").getTime();
-var x = setInterval(function() {
-  var now = new Date().getTime();
-  var distance = countDownDate - now;
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  document.getElementById("demo10").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo10").innerHTML = "EXPIRED";
-  }
-}, 1000);
+// var countDownDate = new Date("Jan 15, 2024 15:37:25").getTime();
+// var x = setInterval(function() {
+//   var now = new Date().getTime();
+//   var distance = countDownDate - now;
+//   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+//   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+//   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+//   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+//   document.getElementById("demo10").innerHTML = days + "d " + hours + "h "
+//   + minutes + "m " + seconds + "s ";
+//   if (distance < 0) {
+//     clearInterval(x);
+//     document.getElementById("demo10").innerHTML = "EXPIRED";
+//   }
+// }, 1000);
 
 // var countDownDate = new Date("Jan 15, 2024 15:37:25").getTime();
 // var x = setInterval(function() {

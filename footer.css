@@ -1,5 +1,7 @@
 
 h2{
+  margin-top: 10px;
+  padding-top: 20px;
     text-align: center;
 }
 .rain {
@@ -33,7 +35,19 @@ h2{
     margin-left: 30%;
     font-size: larger;
 }
-button{
+
+.foot1 button{
+
+    font-size:90% ;
+    background-color: rgba(246, 26, 55, 0.992);
+    border: solid whitesmoke;
+    border-radius: 0.2cm;
+    color: antiquewhite;
+
+    
+}
+
+.richer button{
 
     font-size:90% ;
     background-color: rgba(246, 26, 55, 0.992);
@@ -65,23 +79,22 @@ input{
 }
 .youtube{
   font-size: 0.7cm;
-  color:#CD201F
 }
 .linked{
   font-size: 0.7cm;
-  color: #0A66C2;
 
 }
 .play{
-  font-size: 0.7cm;
-  color:rgb(246, 246, 246) ;
-  background-color: black;
+  text-decoration: none;
+  font-size: 1.5vw;
+  color: black;
+  /* background-color: black; */
   border-radius: 0.2cm;
 }
 .apple{
-  font-size: 0.7cm;
+  text-decoration: none;
+  font-size: 1.5vw;
   color: black;
-  background-color: rgb(241, 219, 193);
   border-radius: 0.2cm;
 
 }

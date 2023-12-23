@@ -232,6 +232,28 @@ html,body{
     align-items: stretch;
     justify-content: space-between;
 }
+/* .b11 .d-block{
+    width: 20vw;
+}
+.b11 img{
+    width: 20vw;;
+} */
+
+/* .carousel-item{
+    height: 10rem;
+    margin: 50px;
+    background-color: #363a43;
+    position: relative;
+}
+.container{
+    position: absolute;
+    left: 22%;
+}
+/* .container img{
+    height: 5rem;
+} */ 
+
+
 .slider{
     margin-left: 140px;
     width: 1070px;
@@ -447,16 +469,16 @@ h4{
 }
 
 .sc3 .item{
-    height: 540px;
+    height: 32.2vw;
     padding: 0 4px;
     line-height: 1;
-    overflow: hidden;
+    position: relative;
 
 }
 .sc3 img{
     
-    width: 1vw;
-    overflow-wrap: normal;
+    height: 20vw;
+    object-fit: scale-down;
 }
 .sc3 a{
     text-decoration: none;
@@ -471,8 +493,7 @@ h4{
     border-radius: 3px;
     background-color: rgba(51, 243, 3, 0.912);
     margin: 9px;
-    padding-top: 5px;
-    padding-left: 5px;
+    padding-top: 3px;
     height: 20px;
     width: 50px;
     position: absolute;
